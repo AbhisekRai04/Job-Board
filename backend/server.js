@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 // Replace with your MongoDB connection string.
 // Example for local DB: 'mongodb://localhost:27017/jobboard'
 // Example for MongoDB Atlas: 'mongodb+srv://user:password@cluster.mongodb.net/jobboard?retryWrites=true&w=majority'
-const MONGODB_URI = 'mongodb://localhost:27017/jobboard';
+const MONGODB_URI = 'mongosh "mongodb+srv://cluster0.mkyjukw.mongodb.net/" --apiVersion 1 --username abhishekrai900100 --password 2vAVt6Nf3F8PUTEF';
 
 // Use CORS to allow the React frontend to make requests
 app.use(cors());
